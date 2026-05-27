@@ -1,0 +1,11 @@
+stack = ["Plate1", "Plate2", "Plate3"]
+
+stack.append("Plate4")
+
+removed = stack.pop()
+
+print("Removed Plate:", removed)
+print("Final Stack:", stack)
+print("\nIndex Values:")
+for i in range(len(stack)):
+    print("Index", i, "=", stack[i])
