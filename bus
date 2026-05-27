@@ -1,0 +1,8 @@
+from collections import deque
+queue = deque(["Aman", "Priya", "Rohit"])
+if len(queue) == 0:
+ print("Queue is Empty")
+else:
+ print("First Student:", queue[0])
+ print("Queue is Not empty")
+ 
