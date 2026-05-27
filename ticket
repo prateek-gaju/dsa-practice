@@ -1,0 +1,10 @@
+from collections import deque
+queue = deque(["Ravi", "Anu", "Kiran"])
+new_person = "Rahul"
+queue.append(new_person)
+removed_person = queue.popleft()
+print("Person Removed:", removed_person)
+print("Final Queue:", list(queue))
+print("\nIndex values:")
+for i in range(len(queue)):
+    print("Index",i,"=",queue[i])
