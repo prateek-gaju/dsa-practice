@@ -1,0 +1,8 @@
+stack = ["Math", "Science", "English"]
+print("top of the stack is:",stack[-1])
+
+if(len(stack) > 0):
+    print("The stack is not empty.")
+else:
+    print("the stack is empty.")
+    
